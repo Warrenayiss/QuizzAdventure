@@ -13,16 +13,16 @@ using System.Windows.Shapes;
 namespace QuizzAdventureApp
 {
 	/// <summary>
-	/// Logique d'interaction pour GameFailWindow.xaml
+	/// Logique d'interaction pour HighscoreWindow.xaml
 	/// </summary>
-	public partial class GameFailWindow : Window
+	public partial class HighscoreWindow : Window
 	{
-		public GameFailWindow()
+		public HighscoreWindow()
 		{
 			InitializeComponent();
 		}
 
-		private void mainBtn_Click(object sender, RoutedEventArgs e)
+		private void menu_Click(object sender, RoutedEventArgs e)
 		{
 			HomeWindow window = new HomeWindow();
 			window.Show();
