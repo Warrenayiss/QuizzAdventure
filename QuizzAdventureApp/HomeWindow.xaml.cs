@@ -37,7 +37,8 @@ namespace QuizzAdventureApp.Windows
 		private void Label_MouseDoubleClick(object sender, MouseButtonEventArgs e)
 		{
 			CodeWindow window = new CodeWindow();
-			window.ShowDialog();
+			window.Show();
+			Close();
 		}
 	}
 }

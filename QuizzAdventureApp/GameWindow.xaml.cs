@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuizzAdventureApp.Windows;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -22,5 +23,11 @@ namespace QuizzAdventureApp
 			InitializeComponent();
 		}
 
+		private void backBtn_Click(object sender, RoutedEventArgs e)
+		{
+			HomeWindow window = new HomeWindow();
+			window.Show();
+			Close();
+		}
 	}
 }

@@ -27,5 +27,6 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <Button x:Name="backBtn" Content="Surrender" Click="backBtn_Click"/>
     </StackPanel>
 </Window>

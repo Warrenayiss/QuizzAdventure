@@ -20,18 +20,22 @@ namespace QuizzAdventureApp
 	{
 		public AddQuestionWindow()
 		{
-			InitializeComponent(); 
+			InitializeComponent();
+			
 		}
 		
 
 		private void saveBtn_Click(object sender, RoutedEventArgs e)
 		{
 			//TODO: get the input to create a new question
-
-
-			CodeWindow window = new CodeWindow();
-			window.Close();
 			Close();
+		}
+
+
+		private void Add_Closed(object sender, EventArgs e)
+		{
+			HomeWindow window = new HomeWindow();
+			window.Show();
 		}
 	}
 }

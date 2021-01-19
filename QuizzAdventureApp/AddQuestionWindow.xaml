@@ -5,6 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuizzAdventureApp"
         mc:Ignorable="d"
+        Closing="Add_Closed"
+        Name="Add"
         Background="Black"
         Title="AddQuestionWindow" Height="450" Width="400">
     <StackPanel VerticalAlignment="Center">
