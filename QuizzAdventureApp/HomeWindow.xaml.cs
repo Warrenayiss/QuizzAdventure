@@ -21,5 +21,10 @@ namespace QuizzAdventureApp.Windows
 		{
 			InitializeComponent();
 		}
+
+		private void exitBtn_Click(object sender, RoutedEventArgs e)
+		{
+			Close();
+		}
 	}
 }
