@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuizzAdventureApp.Windows;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -13,14 +14,18 @@ using System.Windows.Shapes;
 namespace QuizzAdventureApp
 {
 	/// <summary>
-	/// Logique d'interaction pour GameWindow.xaml
+	/// Logique d'interaction pour AddQuestionWindow.xaml
 	/// </summary>
-	public partial class GameWindow : Window
+	public partial class AddQuestionWindow : Window
 	{
-		public GameWindow()
+		public AddQuestionWindow()
 		{
 			InitializeComponent();
 		}
 
+		private void saveBtn_Click(object sender, RoutedEventArgs e)
+		{
+
+		}
 	}
 }

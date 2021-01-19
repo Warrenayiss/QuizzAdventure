@@ -33,5 +33,11 @@ namespace QuizzAdventureApp.Windows
 			window.Show();
 			Close();
 		}
+
+		private void Label_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+		{
+			AddQuestionWindow window = new AddQuestionWindow();
+			window.ShowDialog();
+		}
 	}
 }
