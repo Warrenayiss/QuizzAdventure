@@ -1,5 +1,4 @@
-﻿using QuizzAdventureApp.Windows;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -14,23 +13,21 @@ using System.Windows.Shapes;
 namespace QuizzAdventureApp
 {
 	/// <summary>
-	/// Logique d'interaction pour AddQuestionWindow.xaml
+	/// Logique d'interaction pour CodeWindow.xaml
 	/// </summary>
-	public partial class AddQuestionWindow : Window
+	public partial class CodeWindow : Window
 	{
-		public AddQuestionWindow()
+		public CodeWindow()
 		{
 			InitializeComponent();
 		}
-		
 
-		private void saveBtn_Click(object sender, RoutedEventArgs e)
+		private void Go_Click(object sender, RoutedEventArgs e)
 		{
-			//TODO: get the input to create a new question
+			//TODO; Verify if the text inputed correspond to the secret code
 
-
-			CodeWindow window = new CodeWindow();
-			window.Close();
+			AddQuestionWindow window = new AddQuestionWindow();
+			window.ShowDialog();
 			Close();
 		}
 	}
