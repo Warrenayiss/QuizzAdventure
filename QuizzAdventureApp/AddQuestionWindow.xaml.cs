@@ -14,20 +14,28 @@ using System.Windows.Shapes;
 namespace QuizzAdventureApp
 {
 	/// <summary>
-	/// Logique d'interaction pour GameWindow.xaml
+	/// Logique d'interaction pour AddQuestionWindow.xaml
 	/// </summary>
-	public partial class GameWindow : Window
+	public partial class AddQuestionWindow : Window
 	{
-		public GameWindow()
+		public AddQuestionWindow()
 		{
 			InitializeComponent();
+			
+		}
+		
+
+		private void saveBtn_Click(object sender, RoutedEventArgs e)
+		{
+			//TODO: get the input to create a new question
+			Close();
 		}
 
-		private void backBtn_Click(object sender, RoutedEventArgs e)
+
+		private void Add_Closed(object sender, EventArgs e)
 		{
 			HomeWindow window = new HomeWindow();
 			window.Show();
-			Close();
 		}
 	}
 }

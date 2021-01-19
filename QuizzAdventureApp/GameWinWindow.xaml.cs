@@ -14,16 +14,16 @@ using System.Windows.Shapes;
 namespace QuizzAdventureApp
 {
 	/// <summary>
-	/// Logique d'interaction pour GameWindow.xaml
+	/// Logique d'interaction pour GameWinWindow.xaml
 	/// </summary>
-	public partial class GameWindow : Window
+	public partial class GameWinWindow : Window
 	{
-		public GameWindow()
+		public GameWinWindow()
 		{
 			InitializeComponent();
 		}
 
-		private void backBtn_Click(object sender, RoutedEventArgs e)
+		private void mainBtn_Click(object sender, RoutedEventArgs e)
 		{
 			HomeWindow window = new HomeWindow();
 			window.Show();

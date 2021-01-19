@@ -9,6 +9,7 @@
     <StackPanel Margin="10" HorizontalAlignment="Center" Background="Black">
         <StackPanel VerticalAlignment="Center" >
             <Label Content="QuizzAdventure" 
+                MouseDoubleClick="Label_MouseDoubleClick"
                Foreground="White"
                FontWeight="Bold"
                FontSize="35"
