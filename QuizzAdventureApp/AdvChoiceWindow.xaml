@@ -8,23 +8,31 @@
         Background="Black"
         Title="AdvChoiceWindow" Height="300" Width="300">
     <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-        <Label Content="Choose your adventure"
+        <StackPanel>
+            <Label Content="Choose your adventure"
                Margin="0,10"
                Foreground="White"
                FontWeight="Bold"
                FontStyle="Italic"
                FontSize="25"/>
-        <Button x:Name="shortBtn"
+            <Button x:Name="shortBtn"
                 Margin="5,15"
                 Background="Wheat"
                 Content="Short"/>
-        <Button x:Name="medBtn"
+            <Button x:Name="medBtn"
                 Margin="5,15"
                 Background="Wheat"
                 Content="Medium"/>
-        <Button x:Name="longBtn"
+            <Button x:Name="longBtn"
                 Margin="5,15"
                 Background="Wheat"
                 Content="Long"/>
+        </StackPanel>
+        <Button x:Name="backBtn"
+                Background="White"
+                Content="Back"
+                VerticalAlignment="Bottom"
+                Click="backBtn_Click"
+                FontWeight="Black"/>
     </StackPanel>
 </Window>

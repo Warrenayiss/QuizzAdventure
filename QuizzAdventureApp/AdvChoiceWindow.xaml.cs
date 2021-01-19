@@ -21,5 +21,10 @@ namespace QuizzAdventureApp
 		{
 			InitializeComponent();
 		}
+
+		private void backBtn_Click(object sender, RoutedEventArgs e)
+		{
+
+		}
 	}
 }

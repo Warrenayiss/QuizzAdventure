@@ -30,7 +30,8 @@ namespace QuizzAdventureApp.Windows
 		private void playBtn_Click(object sender, RoutedEventArgs e)
 		{
 			AdvChoiceWindow window = new AdvChoiceWindow();
-			window.ShowDialog();
+			window.Show();
+			Close();
 		}
 	}
 }
