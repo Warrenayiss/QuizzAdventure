@@ -6,7 +6,13 @@
         xmlns:local="clr-namespace:QuizzAdventureApp.Windows"
         mc:Ignorable="d"
         Title="HomeWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <StackPanel>
+        <Label Content="QuizzAdventure" />
+        <Button x:Name="playBtn"
+                Content="Play" />
+        <Button x:Name="highscoreBtn"
+                Content="Hightscore" />
+        <Button x:Name="exitBtn"
+                Content="Quit" />
+    </StackPanel>
 </Window>
