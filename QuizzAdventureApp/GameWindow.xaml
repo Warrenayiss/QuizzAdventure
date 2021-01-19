@@ -19,7 +19,7 @@
                x:Name="questionLb"
                    TextWrapping="Wrap"
                Foreground="White"/>
-        <ListView>
+        <ListView Height="200" Margin="10,20">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <TextBlock TextWrapping="Wrap"

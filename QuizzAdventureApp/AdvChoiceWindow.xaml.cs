@@ -29,5 +29,14 @@ namespace QuizzAdventureApp
 			window.Show();
 			Close();
 		}
+
+		private void choiceBtn_Click(object sender, RoutedEventArgs e)
+		{
+			//TODO: Take the name of the clicked button to see if the quizz would be 5, 15 or 25 questions long
+
+			GameWindow window = new GameWindow();
+			window.Show();
+			Close();
+		}
 	}
 }

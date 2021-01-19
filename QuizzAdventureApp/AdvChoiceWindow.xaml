@@ -17,14 +17,17 @@
                FontSize="25"/>
             <Button x:Name="shortBtn"
                 Margin="5,15"
+                    Click="choiceBtn_Click"
                 Background="Wheat"
                 Content="Short"/>
             <Button x:Name="medBtn"
                 Margin="5,15"
+                    Click="choiceBtn_Click"
                 Background="Wheat"
                 Content="Medium"/>
             <Button x:Name="longBtn"
                 Margin="5,15"
+                    Click="choiceBtn_Click"
                 Background="Wheat"
                 Content="Long"/>
         </StackPanel>
