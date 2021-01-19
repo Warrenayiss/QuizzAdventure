@@ -20,7 +20,7 @@ namespace QuizzAdventureApp
 	{
 		public AddQuestionWindow()
 		{
-			InitializeComponent();
+			InitializeComponent(); 
 		}
 		
 

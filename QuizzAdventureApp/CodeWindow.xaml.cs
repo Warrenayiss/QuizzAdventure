@@ -27,7 +27,7 @@ namespace QuizzAdventureApp
 			//TODO; Verify if the text inputed correspond to the secret code
 
 			AddQuestionWindow window = new AddQuestionWindow();
-			window.ShowDialog();
+			window.Show();
 			Close();
 		}
 	}
