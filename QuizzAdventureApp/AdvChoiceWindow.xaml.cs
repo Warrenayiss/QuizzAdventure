@@ -10,27 +10,16 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace QuizzAdventureApp.Windows
+namespace QuizzAdventureApp
 {
 	/// <summary>
-	/// Logique d'interaction pour HomeWindow.xaml
+	/// Logique d'interaction pour AdvChoiceWindow.xaml
 	/// </summary>
-	public partial class HomeWindow : Window
+	public partial class AdvChoiceWindow : Window
 	{
-		public HomeWindow()
+		public AdvChoiceWindow()
 		{
 			InitializeComponent();
-		}
-
-		private void exitBtn_Click(object sender, RoutedEventArgs e)
-		{
-			Close();
-		}
-
-		private void playBtn_Click(object sender, RoutedEventArgs e)
-		{
-			AdvChoiceWindow window = new AdvChoiceWindow();
-			window.ShowDialog();
 		}
 	}
 }
