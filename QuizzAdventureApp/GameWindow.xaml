@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:QuizzAdventureApp"
         Background="Black"
         mc:Ignorable="d"
-        Title="GameWindow" Height="500" Width="400">
+        Title="GameWindow" Height="500" Width="400"  MinHeight="500" MinWidth="400">
     <StackPanel>
         <StackPanel>
             <Label Content="Score: 0" x:Name="scoreLb"
