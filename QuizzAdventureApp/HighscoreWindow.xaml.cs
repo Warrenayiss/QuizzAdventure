@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuizzAdventureApp.Windows;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -27,6 +28,7 @@ namespace QuizzAdventureApp
 			HomeWindow window = new HomeWindow();
 			window.Show();
 			Close();
+
 		}
 	}
 }

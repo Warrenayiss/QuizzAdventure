@@ -10,7 +10,6 @@
     <StackPanel>
         <ListView x:Name="scoreList" Margin="20">
         </ListView>
-        <Button x:Name="menu" Content="Main Menu" Click="menu_Click
-                Background="DarkGray" />
+        <Button x:Name="menu" Content="Main Menu" Click="menu_Click"/>
     </StackPanel>
 </Window>

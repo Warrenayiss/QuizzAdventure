@@ -40,5 +40,12 @@ namespace QuizzAdventureApp.Windows
 			window.Show();
 			Close();
 		}
+
+		private void highscoreBtn_Click(object sender, RoutedEventArgs e)
+		{
+			HighscoreWindow window = new HighscoreWindow();
+			window.Show();
+			Close();
+		}
 	}
 }
